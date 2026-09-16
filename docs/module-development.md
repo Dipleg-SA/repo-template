@@ -2,10 +2,10 @@
 
 ## Estructura
 
-Cada addon vive bajo `addons/<nombre_tecnico>/`, siguiendo una estructura simple y reconocible:
+El módulo vive bajo `module/`, siguiendo una estructura simple y reconocible:
 
 ```text
-addons/<nombre_tecnico>/
+module/
 ├── __init__.py
 ├── __manifest__.py
 ├── models/
@@ -16,11 +16,11 @@ addons/<nombre_tecnico>/
 
 ## Primeros pasos
 
-1. Renombrar `addons/example_module/` con el nombre técnico definitivo.
-2. Reemplazar nombre, resumen, descripción y dependencias en `__manifest__.py`.
-3. Definir modelos en `models/` e importarlos desde `models/__init__.py`.
-4. Agregar vistas y datos de seguridad en `views/` y `security/`.
-5. Agregar pruebas en `tests/` e importarlas cuando existan casos verificables.
+1. Completar `module/`; si se requiere un nombre técnico distinto, renombrar el directorio conservando todos sus subdirectorios.
+2. Reemplazar nombre, resumen, descripción y dependencias en `module/__manifest__.py`.
+3. Definir modelos en `module/models/` e importarlos desde `models/__init__.py`.
+4. Agregar vistas y datos de seguridad en `module/views/` y `module/security/`.
+5. Agregar pruebas en `module/tests/` e importarlas cuando existan casos verificables.
 6. Mantener la gobernanza del repositorio en `.github/` y el flujo de ramas documentado en `docs/branch-flow.md`.
 
 El scaffold no contiene modelos de negocio, datos de clientes, credenciales ni configuraciones de producción.
