@@ -1,1 +1,1 @@
-"""Import module models here."""
+"""Import the repository module models here."""
