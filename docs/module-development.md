@@ -2,7 +2,7 @@
 
 ## Estructura
 
-El módulo vive bajo `module/`, siguiendo una estructura simple y reconocible:
+El módulo canónico vive únicamente bajo `module/`, siguiendo una estructura simple y reconocible:
 
 ```text
 module/
