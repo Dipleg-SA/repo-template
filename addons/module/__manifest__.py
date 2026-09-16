@@ -1,5 +1,4 @@
 {
-    # Temporary reconciliation marker; this legacy path is removed by a governed follow-up PR.
     "name": "Replace with module name",
     "version": "19.0.1.0.0",
     "summary": "Replace with the module summary",
